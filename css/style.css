@@ -2,10 +2,6 @@
 /* Css Styles                        */
 /*---------------------------------- */
 
-/**
-	Mat - vCard Template
-	Author : Tavonline
-	Copyright 2017
 
 /* Table of Content
 ==================================================
@@ -40,7 +36,6 @@ body{
     background:#fafafa;
     overflow-x: hidden;
     position: relative;
-    /*background: url(../images/bg.png) #fafafa;*/
     background: #fafafa;
 }
 
@@ -1878,3 +1873,6 @@ footer .footer .copyright a:hover{
 }
 
 
+.portfolio-content .site-btn{
+    display: inline-block;
+}
