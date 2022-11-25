@@ -1,17 +1,3 @@
-$.ajax({
-  method: 'POST',
-  url: 'https://formsubmit.co/ajax/mikiyoshi.kokura@gmail.com',
-  dataType: 'json',
-  accepts: 'application/json',
-  data: {
-    name: 'FormSubmit',
-    email: 'mikiyoshi.kokura@gmail.com',
-    message: "I'm from Devro LABS",
-  },
-  success: (data) => console.log('data: ', data),
-  error: (err) => console.log('err: ', err),
-});
-
 $('form').submit(function (event) {
   event.preventDefault();
 
@@ -19,21 +5,11 @@ $('form').submit(function (event) {
   let formData = {
     name: $('input[name=name]').val(),
     email: $('input[name=email]').val(),
-    message: $('input[name=message]').val(),
+    message: $('textarea[name=message]').val(),
   };
 
   // process the form
   $.ajax({
-    //   type: "POST",
-    //   url: "//jsonplaceholder.typicode.com/posts",
-    //   data: formData,
-    //   dataType: "json",
-    //   encode: true
-    // }).done(function(data) {
-    //   $(".response")
-    //     .empty()
-    //     .append(JSON.stringify(data, null, 2));
-
     method: 'POST',
     url: 'https://formsubmit.co/ajax/mikiyoshi.kokura@gmail.com',
     dataType: 'json',
@@ -60,7 +36,7 @@ $('form').submit(function (event) {
       formData = {
         name: $('input[name=name]').val(''),
         email: $('input[name=email]').val(''),
-        message: $('.site-area').val(''),
+        message: $('textarea[name=message]').val(''),
       };
     }
   });
