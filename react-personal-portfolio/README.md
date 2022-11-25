@@ -1,3 +1,9 @@
+# relative path at Deploy
+
+`npm run build`
+
+- add package.json `"homepage": "./"` for relative path at Deploy
+
 # Personal Portfolio Website in React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

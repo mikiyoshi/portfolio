@@ -62,7 +62,7 @@ export const Skills = () => {
               </div>
               <h2>Skills</h2>
               <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                   <h3>Web Development</h3>
                   {profile.map((data) => {
                     return data.webDeveloper !== '' &&
@@ -74,7 +74,7 @@ export const Skills = () => {
                   })}
                 </div>
 
-                <div className="col-6">
+                <div className="col-md-6">
                   <h3>UI/UX Design</h3>
                   {profile.map((data) => {
                     return data.uiUxDesign !== '' &&
@@ -86,7 +86,7 @@ export const Skills = () => {
                   })}
                 </div>
 
-                <div className="col-6">
+                <div className="col-md-6">
                   <h3>Web Marketing</h3>
                   {profile.map((data) => {
                     return data.webMarketing !== '' &&
@@ -98,7 +98,7 @@ export const Skills = () => {
                   })}
                 </div>
 
-                <div className="col-6">
+                <div className="col-md-6">
                   <h3>Extensive Experience</h3>
                   {profile.map((data) => {
                     return data.extensiveExperience !== '' &&
@@ -117,7 +117,7 @@ export const Skills = () => {
                   {profile.map((data) => {
                     return data.frameworks !== '' &&
                       data.frameworks !== undefined ? (
-                      <div className="col-3">{data.frameworks}</div>
+                      <div className="col-md-3 col-sm-4">{data.frameworks}</div>
                     ) : (
                       ''
                     );
@@ -130,7 +130,7 @@ export const Skills = () => {
                   {profile.map((data) => {
                     return data.languages !== '' &&
                       data.languages !== undefined ? (
-                      <div className="col-3">{data.languages}</div>
+                      <div className="col-md-3 col-sm-4">{data.languages}</div>
                     ) : (
                       ''
                     );
@@ -143,7 +143,9 @@ export const Skills = () => {
                   {profile.map((data) => {
                     return data.systemsAndDatabases !== '' &&
                       data.systemsAndDatabases !== undefined ? (
-                      <div className="col-3">{data.systemsAndDatabases}</div>
+                      <div className="col-md-3 col-sm-4">
+                        {data.systemsAndDatabases}
+                      </div>
                     ) : (
                       ''
                     );
@@ -155,7 +157,7 @@ export const Skills = () => {
                 <div className="row">
                   {profile.map((data) => {
                     return data.testing !== '' && data.testing !== undefined ? (
-                      <div className="col-3">{data.testing}</div>
+                      <div className="col-md-3 col-sm-4">{data.testing}</div>
                     ) : (
                       ''
                     );
