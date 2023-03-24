@@ -7,3 +7,5 @@
 - [creddle.io](https://resume.creddle.io/resume/ckjsdv7ewrh)
 
 - [Mikiyoshi Kokura Portfolio](https://mikiyoshik.github.io/portfolio/)
+
+<!-- Update -->
