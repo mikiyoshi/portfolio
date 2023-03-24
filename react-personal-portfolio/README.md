@@ -10,7 +10,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://mikiyoshik.github.io/portfolio/images/screen-cap.png">
 
-
 Built using:
 
 - Front-end library: React
