@@ -8,7 +8,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![img](/images/screen-cap.png)
+![img](/images/screeen-cap.png)
 
 Built using:
 
